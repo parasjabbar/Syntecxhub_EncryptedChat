@@ -1,51 +1,61 @@
-# 🔐 Encrypted Chat Application
+# Encrypted Chat Application
 
-<div align="center">
-  <h3>AES-256 Encrypted Client-Server Chat Application</h3>
-  <p>Built for Syntecxhub Cybersecurity Internship - Week 2 Task</p>
-</div>
+A secure client-server chat app with AES-256 encryption.
 
-## 📋 Project Overview
+## Features
+- AES-256 encryption for all messages
+- Multi-client support with threading
+- Message logging on server
+- Username system
 
-This is a secure client-server chat application that implements AES-256 encryption for all messages. The project demonstrates practical implementation of cryptography, socket programming, and multi-threading in Python.
+## How to Run
+1. Install: `pip install pycryptodome`
+2. Run server: `python server.py`
+3. Run client(s): `python client.py`
 
-## ✨ Features
+## Files
+- `server.py` - Chat server
+- `client.py` - Chat client  
+- `encryption.py` - Encryption module
 
-- ✅ **End-to-end AES-256 encryption** for all messages
-- ✅ **Multi-client support** with concurrent connections
-- ✅ **Secure key derivation** using SHA-256
-- ✅ **Random Initialization Vector (IV)** for each message
-- ✅ **Message logging** on server side
-- ✅ **Username system** for user identification
-- ✅ **Clean console interface** with emoji indicators
-- ✅ **Graceful disconnection** handling
+## Security
+- AES-256-CBC encryption
+- Random IV per message
+- SHA-256 key derivation
 
-## 🛠️ Technologies Used
+## Author
+Paras Jabbar - Syntecxhub Intern
 
-- **Python 3.x** - Core programming language
-- **PyCryptodome** - AES encryption library
-- **Socket Programming** - TCP network communication
-- **Threading** - Concurrent client handling
+## Links
+GitHub: # Encrypted Chat Application
 
-## 📁 Project Structure
-Syntecxhub_EncryptedChat/
-│
-├── server.py # Chat server with client management
-├── client.py # Chat client with encryption
-├── encryption.py # AES encryption/decryption module
-├── .gitignore # Git ignore file
-└── README.md # Project documentation
+A secure client-server chat app with AES-256 encryption.
 
+## Features
+- AES-256 encryption for all messages
+- Multi-client support with threading
+- Message logging on server
+- Username system
 
-## 🔐 How Encryption Works
+## How to Run
+1. Install: `pip install pycryptodome`
+2. Run server: `python server.py`
+3. Run client(s): `python client.py`
 
-1. **Key Generation**: Both server and client use a pre-shared key to generate a 256-bit AES key using SHA-256
-2. **Message Encryption**: 
-   - Random 16-byte IV generated per message
-   - Message padded to AES block size
-   - AES-256-CBC encryption applied
-   - IV + ciphertext combined and base64 encoded
-3. **Message Decryption**: 
-   - Base64 decode to extract IV and ciphertext
-   - Decrypt using same key and IV
-   - Remove padding to get original message
+## Files
+- `server.py` - Chat server
+- `client.py` - Chat client  
+- `encryption.py` - Encryption module
+
+## Security
+- AES-256-CBC encryption
+- Random IV per message
+- SHA-256 key derivation
+
+## Author
+[Your Name] - Syntecxhub Intern
+
+## Links
+GitHub: https://github.com/parasjabbar/Syntecxhub_EncryptedChat
+LinkedIn: www.linkedin.com/in/paras-jabbar-b13256397
+LinkedIn: [Your LinkedIn]
