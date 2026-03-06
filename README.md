@@ -53,9 +53,9 @@ A secure client-server chat app with AES-256 encryption.
 - SHA-256 key derivation
 
 ## Author
-[Your Name] - Syntecxhub Intern
+Paras JAbbar - Syntecxhub Intern
 
 ## Links
 GitHub: https://github.com/parasjabbar/Syntecxhub_EncryptedChat
 LinkedIn: www.linkedin.com/in/paras-jabbar-b13256397
-LinkedIn: [Your LinkedIn]
+
