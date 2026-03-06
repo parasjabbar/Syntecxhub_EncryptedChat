@@ -1,0 +1,5 @@
+[2026-03-03 02:06:48] SERVER STARTED
+[2026-03-03 02:08:36] USER JOINED: Fatima from ('127.0.0.1', 50165)
+[2026-03-03 02:09:08] USER JOINED: Zahra from ('127.0.0.1', 50168)
+[2026-03-03 02:09:52] Zahra: Hello!
+[2026-03-03 02:10:23] Fatima: Hello Fatima!
